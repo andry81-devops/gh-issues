@@ -1,3 +1,0 @@
-* gh-workflow/bash/cache/accum-content.sh:
-
-  missed to update `content-changelog.txt` file
