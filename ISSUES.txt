@@ -1,0 +1,40 @@
+* `tkl_include` suspicious nesting
+
+Run ### [accum-gh-rate-limits][07] variables validation
+source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/_common/utils.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/is-flag-true-in-flags-expr-string.sh|`
+| | | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-notice.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-warning.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-error.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-github-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+Run ### [accum-gh-rate-limits][08] declare local variables
+source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/_common/utils.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/is-flag-true-in-flags-expr-string.sh|`
+| | | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-notice.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-warning.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/print-error.sh|`
+| | | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-print-workflow.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-github-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/init-basic-workflow.sh|`
+| | | source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+| source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
+source: `/home/runner/work/andry81-p/andry81-p/gh-workflow/bash/github/utils.sh|`
