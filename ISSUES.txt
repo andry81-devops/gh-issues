@@ -1,0 +1,32 @@
+* issue: gh-workflow: bash/cache/accum-content.sh: svg file parse
+
+---
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="116.85008" height="18" role="img" aria-label="style: plastic">    <linearGradient id="smoothvTumIE5" x2="0" y2="100%">    <stop offset="0" stop-color="#fff" stop-opacity=".7"/>    <stop offset=".1" stop-color="#aaa" stop-opacity=".1"/>    <stop offset=".9" stop-color="#000" stop-opacity=".3"/>    <stop offset="1" stop-color="#000" stop-opacity=".5"/>  </linearGradient>  <clipPath id="roundvTumIE5">    <rect width="116.85008" height="18" rx="3" fill="#fff"/>  </clipPath>  <g clip-path="url(#roundvTumIE5)">    <rect width="81.704796" height="18" fill="rgb(85, 85, 85)">          </rect>    <rect x="81.704796" width="35.145287" height="18" fill="rgb(0, 126, 198)">          </rect>    <rect width="116.85008" height="18" fill="url(#smoothvTumIE5)"/>  </g>  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">        <text aria-hidden="true" x="418.524" y="140" fill="#010101" fill-opacity=".3" transform="scale(0.1)" textLength="717.048" lengthAdjust="spacing">lines of code</text>    <text x="418.524" y="130" transform="scale(0.1)" textLength="717.048" lengthAdjust="spacing">lines of code</text>    <text aria-hidden="true" x="982.77435" y="140" fill="#010101" fill-opacity=".3" transform="scale(0.1)" textLength="251.45285" lengthAdjust="spacing">5.2K</text>    <text x="982.77435" y="130" transform="scale(0.1)" textLength="251.45285" lengthAdjust="spacing">5.2K</text>                  </g></svg>
+---
+File is not valid (skipped): `repo/andry81/bittools/badges/metrics/tokei-lines-of-code.svg`:
+  size=`1586 -> 1586` md5-hash=`adde7d354ef1b6e588d59dbb96a37d14 -> 90e1a4ba5b6e18958377e253bf27deb4`
+  expired-delta=`+02:07:46` scheduled-timestamp=`2023-07-09T15:13:09Z -> 2023-07-09T23:13:09Z` update-timestamp=`2023-07-10T01:21:08Z`
+>`/tmp/tmp.PxvqZBcyA3/content-index-[3][2].yml.diff`:
+--- /home/runner/work/andry81/andry81/content-cache/repo/andry81/bittools/content-index.yml	2023-07-10 01:21:01.501645209 +0000
++++ /tmp/tmp.PxvqZBcyA3/content-index-[3][2].yml	2023-07-10 01:21:08.569586162 +0000
+@@ -133 +133 @@
+-              timestamp: "2023-07-09T15:13:09Z"
++              timestamp: "2023-07-10T01:21:08Z"
+===
+
+content config file: https://github.com/andry81-cache/gh-content-cache-config/tree/master/repo/andry81/bittools/content-config.yml
+content index file: https://github.com/andry81-cache/andry81--gh-content-cache/tree/master/repo/andry81/bittools/content-index.yml
+content index dir: repo/andry81/bittools
+content changelog file: https://github.com/andry81-cache/andry81--gh-content-cache/tree/master/repo/andry81/bittools/content-changelog.txt
+env:
+  GITHUB_RUN_ID=`5503007012`
+  GITHUB_RUN_NUMBER=`3381`
+current date/time: 2023-07-10T01:20:55Z
+File is changed: `repo/andry81/bittools/badges/traffic/clones/all.svg`:
+  size=`2349 -> 2349` md5-hash=`8a5991c7d99d03abd5af65003c5dcd08 -> 9e9a0d7955e842392dbd5b3425747795`
+  expired-delta=`+00:09:32` scheduled-timestamp=`2023-07-09T21:11:23Z -> 2023-07-10T01:11:23Z` update-timestamp=`2023-07-10T01:20:58Z`
+File is changed: `repo/andry81/bittools/badges/traffic/clones/all-14d.svg`:
+  size=`1107 -> 1107` md5-hash=`141540ef7c4638e8a691b264843f017e -> e75e90e3696eef3dc6ba8fa1b61176bd`
+  expired-delta=`+00:09:31` scheduled-timestamp=`2023-07-09T21:11:24Z -> 2023-07-10T01:11:24Z` update-timestamp=`2023-07-10T01:20:59Z`
+failed / skipped expired / downloaded changed: 1 / 16 9 / 9 2
+commit reference url: https://github.com/andry81-cache/andry81--gh-content-cache/commit/dd1e1c5d04bc58a45bb3911321157b3bfa3efb04
